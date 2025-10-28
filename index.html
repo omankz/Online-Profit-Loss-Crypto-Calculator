@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!-- saved from url=(0096)file:///C:/Users/omank/Downloads/kalkulator_profit_loss_kripto_single_file_v_3_kurs_di_atas.html -->
+<html lang="id" class="h-full dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalkulator Profit/Loss Kripto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./index_files/css2" rel="stylesheet">
+  <script src="./index_files/saved_resource"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Noto Sans','Helvetica Neue','Arial','"Apple Color Emoji"','"Segoe UI Emoji"','"Segoe UI Symbol"'] }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade { transition: background-color .25s ease, color .25s ease, border-color .25s ease; }
+    .ring-focus:focus { outline: none; box-shadow: 0 0 0 3px rgb(59 130 246 / .5); }
+    .num-input::-webkit-outer-spin-button,.num-input::-webkit-inner-spin-button{ -webkit-appearance: none; margin: 0; }
+    .num-input{ -moz-appearance: textfield; }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-6{margin-top:1.5rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-full{width:100%}.max-w-5xl{max-width:64rem}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:spin 1s linear infinite}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-x-6{column-gap:1.5rem}.gap-y-2{row-gap:0.5rem}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-2xl{border-radius:1rem}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202 / var(--tw-border-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.p-3{padding:0.75rem}.p-4{padding:1rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-red-800{--tw-text-opacity:1;color:rgb(153 27 27 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-700:hover{--tw-bg-opacity:1;background-color:rgb(67 56 202 / var(--tw-bg-opacity, 1))}.dark\:border-gray-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.dark\:border-gray-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.dark\:border-blue-900\/40:is(.dark *){border-color:rgb(30 58 138 / 0.4)}.dark\:border-red-900\/40:is(.dark *){border-color:rgb(127 29 29 / 0.4)}.dark\:bg-gray-100:is(.dark *){--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(3 7 18 / var(--tw-bg-opacity, 1))}.dark\:bg-blue-900\/20:is(.dark *){background-color:rgb(30 58 138 / 0.2)}.dark\:bg-red-900\/20:is(.dark *){background-color:rgb(127 29 29 / 0.2)}.dark\:text-gray-100:is(.dark *){--tw-text-opacity:1;color:rgb(243 244 246 / var(--tw-text-opacity, 1))}.dark\:text-gray-400:is(.dark *){--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-gray-900:is(.dark *){--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.dark\:text-blue-200:is(.dark *){--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.dark\:text-red-200:is(.dark *){--tw-text-opacity:1;color:rgb(254 202 202 / var(--tw-text-opacity, 1))}.dark\:text-emerald-400:is(.dark *){--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.dark\:hover\:bg-gray-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:gap-3{gap:0.75rem}.sm\:p-6{padding:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1280px){.xl\:col-span-1{grid-column:span 1 / span 1}.xl\:col-span-2{grid-column:span 2 / span 2}.xl\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+<body class="h-full bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 fade">
+  <div class="min-h-screen max-w-5xl mx-auto px-4 py-8">
+    <!-- Header -->
+    <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-bold">Kalkulator Profit/Loss Kripto</h1>
+        <p id="subtitle" class="text-sm text-gray-600 dark:text-gray-400 mt-1">Hitung P/L berdasarkan modal, kurs, dan harga beli/jual.</p>
+      </div>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Language -->
+        <label class="sr-only" for="lang">Bahasa</label>
+        <select id="lang" class="ring-focus rounded-xl px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 text-sm">
+          <option value="id">🇮🇩 ID</option>
+          <option value="en">🇺🇸 EN</option>
+          <option value="zh">🇹🇼 繁體</option>
+        </select>
+        <!-- Theme toggle -->
+        <button id="themeBtn" class="ring-focus rounded-xl px-3 py-2 bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900 text-sm">🌙/☀️</button>
+      </div>
+    </header>
+
+    <!-- Alerts -->
+    <div id="alert" class="mb-4 p-3 rounded-xl border text-sm bg-blue-50 border-blue-200 text-blue-800 dark:bg-blue-900/20 dark:border-blue-900/40 dark:text-blue-200 hidden">Harga beli terkini dimuat.</div>
+
+    <!-- === 1) KURS MATA UANG — DIPINDAH KE PALING ATAS === -->
+    <section class="mb-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm p-4 sm:p-6 fade">
+      <h2 class="text-lg font-semibold mb-3" id="rateTitle">Kurs Mata Uang</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div>
+          <label class="block text-sm mb-1" for="rate_idr" id="lblRateIDR">1 USD = … IDR</label>
+          <input id="rate_idr" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+        </div>
+        <div>
+          <label class="block text-sm mb-1" for="rate_twd" id="lblRateTWD">1 USD = … TWD</label>
+          <input id="rate_twd" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+        </div>
+      </div>
+      <button id="btnFetchFx" class="mt-3 ring-focus inline-flex items-center gap-2 rounded-xl px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm">
+        <span id="txtFetchFx">Ambil Kurs Real-time</span>
+        <span id="spinFx" class="animate-spin hidden">⏳</span>
+      </button>
+    </section>
+
+    <!-- === 2-6) INPUT LAIN + HITUNG === -->
+    <section class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm p-4 sm:p-6 fade">
+      <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
+        <!-- Left: Capital & Coin -->
+        <div class="xl:col-span-1 space-y-6">
+          <div>
+            <h2 class="text-lg font-semibold mb-3" id="capTitle">Modal Awal</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div>
+                <label class="block text-sm mb-1" for="capital_idr" id="lblCapitalIDR">IDR</label>
+                <input id="capital_idr" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+              </div>
+              <div>
+                <label class="block text-sm mb-1" for="capital_usd" id="lblCapitalUSD">USD</label>
+                <input id="capital_usd" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+              </div>
+              <div>
+                <label class="block text-sm mb-1" for="capital_twd" id="lblCapitalTWD">TWD</label>
+                <input id="capital_twd" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="text-lg font-semibold mb-3" id="coinTitle">Pilihan Koin</h2>
+            <select id="coinSelect" class="w-full ring-focus rounded-xl px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700"><option value="" disabled="" selected="">—</option><option value="bitcoin">Bitcoin (BTC)</option><option value="ethereum">Ethereum (ETH)</option><option value="tether">Tether (USDT)</option><option value="ripple">XRP (XRP)</option><option value="binancecoin">BNB (BNB)</option><option value="solana">Solana (SOL)</option><option value="usd-coin">USDC (USDC)</option><option value="staked-ether">Lido Staked Ether (STETH)</option><option value="dogecoin">Dogecoin (DOGE)</option><option value="tron">TRON (TRX)</option><option value="cardano">Cardano (ADA)</option><option value="figure-heloc">Figure Heloc (FIGR_HELOC)</option><option value="wrapped-steth">Wrapped stETH (WSTETH)</option><option value="wrapped-beacon-eth">Wrapped Beacon ETH (WBETH)</option><option value="wrapped-bitcoin">Wrapped Bitcoin (WBTC)</option><option value="chainlink">Chainlink (LINK)</option><option value="hyperliquid">Hyperliquid (HYPE)</option><option value="bitcoin-cash">Bitcoin Cash (BCH)</option><option value="wrapped-eeth">Wrapped eETH (WEETH)</option><option value="stellar">Stellar (XLM)</option><option value="ethena-usde">Ethena USDe (USDE)</option><option value="sui">Sui (SUI)</option><option value="hedera-hashgraph">Hedera (HBAR)</option><option value="usds">USDS (USDS)</option><option value="weth">WETH (WETH)</option><option value="binance-bridged-usdt-bnb-smart-chain">Binance Bridged USDT (BNB Smart Chain) (BSC-USD)</option><option value="avalanche-2">Avalanche (AVAX)</option><option value="leo-token">LEO Token (LEO)</option><option value="litecoin">Litecoin (LTC)</option><option value="coinbase-wrapped-btc">Coinbase Wrapped BTC (CBBTC)</option><option value="usdt0">USDT0 (USDT0)</option><option value="monero">Monero (XMR)</option><option value="whitebit">WhiteBIT Coin (WBT)</option><option value="shiba-inu">Shiba Inu (SHIB)</option><option value="the-open-network">Toncoin (TON)</option><option value="crypto-com-chain">Cronos (CRO)</option><option value="zcash">Zcash (ZEC)</option><option value="mantle">Mantle (MNT)</option><option value="ethena-staked-usde">Ethena Staked USDe (SUSDE)</option><option value="polkadot">Polkadot (DOT)</option><option value="dai">Dai (DAI)</option><option value="bittensor">Bittensor (TAO)</option><option value="uniswap">Uniswap (UNI)</option><option value="world-liberty-financial">World Liberty Financial (WLFI)</option><option value="memecore">MemeCore (M)</option><option value="aave">Aave (AAVE)</option><option value="ethena">Ethena (ENA)</option><option value="okb">OKB (OKB)</option><option value="susds">sUSDS (SUSDS)</option><option value="bitget-token">Bitget Token (BGB)</option><option value="pepe">Pepe (PEPE)</option><option value="near">NEAR Protocol (NEAR)</option><option value="usd1-wlfi">USD1 (USD1)</option><option value="blackrock-usd-institutional-digital-liquidity-fund">BlackRock USD Institutional Digital Liquidity Fund (BUIDL)</option><option value="jito-staked-sol">Jito Staked SOL (JITOSOL)</option><option value="paypal-usd">PayPal USD (PYUSD)</option><option value="wrapped-solana">Wrapped SOL (SOL)</option><option value="ethereum-classic">Ethereum Classic (ETC)</option><option value="aptos">Aptos (APT)</option><option value="binance-peg-weth">Binance-Peg WETH (WETH)</option><option value="ondo-finance">Ondo (ONDO)</option><option value="jupiter-perpetuals-liquidity-provider-token">Jupiter Perpetuals Liquidity Provider Token (JLP)</option><option value="falcon-finance">Falcon USD (USDF)</option><option value="aster-2">Aster (ASTER)</option><option value="polygon-ecosystem-token">POL (ex-MATIC) (POL)</option><option value="tether-gold">Tether Gold (XAUT)</option><option value="worldcoin-wld">Worldcoin (WLD)</option><option value="pi-network">Pi Network (PI)</option><option value="rocket-pool-eth">Rocket Pool ETH (RETH)</option><option value="arbitrum">Arbitrum (ARB)</option><option value="usdtb">USDtb (USDTB)</option><option value="gatechain-token">Gate (GT)</option><option value="binance-staked-sol">Binance Staked SOL (BNSOL)</option><option value="kucoin-shares">KuCoin (KCS)</option><option value="algorand">Algorand (ALGO)</option><option value="htx-dao">HTX DAO (HTX)</option><option value="internet-computer">Internet Computer (ICP)</option><option value="pump-fun">Pump.fun (PUMP)</option><option value="hash-2">Provenance Blockchain (HASH)</option><option value="kinetic-staked-hype">Kinetiq Staked HYPE (KHYPE)</option><option value="story-2">Story (IP)</option><option value="kelp-dao-restaked-eth">Kelp DAO Restaked ETH (RSETH)</option><option value="stakewise-v3-oseth">StakeWise Staked ETH (OSETH)</option><option value="kaspa">Kaspa (KAS)</option><option value="cosmos">Cosmos Hub (ATOM)</option><option value="vechain">VeChain (VET)</option><option value="liquid-staked-ethereum">Liquid Staked ETH (LSETH)</option><option value="wbnb">Wrapped BNB (WBNB)</option><option value="jupiter-exchange-solana">Jupiter (JUP)</option><option value="sky">Sky (SKY)</option><option value="official-trump">Official Trump (TRUMP)</option><option value="lombard-staked-btc">Lombard Staked BTC (LBTC)</option><option value="pudgy-penguins">Pudgy Penguins (PENGU)</option><option value="syrupusdc">Syrup USDC (SYRUPUSDC)</option><option value="bfusd">BFUSD (BFUSD)</option><option value="flare-networks">Flare (FLR)</option><option value="pax-gold">PAX Gold (PAXG)</option><option value="render-token">Render (RENDER)</option><option value="renzo-restaked-eth">Renzo Restaked ETH (EZETH)</option><option value="sei-network">Sei (SEI)</option></select>
+            <p class="text-xs text-gray-500 mt-2" id="coinHint">Memuat 100 koin teratas berdasarkan market cap (CoinGecko).</p>
+          </div>
+        </div>
+
+        <!-- Right: Prices & Buttons -->
+        <div class="xl:col-span-2 space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Buy -->
+            <div class="border border-gray-200 dark:border-gray-800 rounded-2xl p-4">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="font-semibold" id="buyTitle">Harga Beli</h3>
+                <button id="btnPriceBuy" class="ring-focus rounded-lg px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs">Gunakan Harga Real-time</button>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-sm mb-1" for="buy_usd" id="lblBuyUSD">USD</label>
+                  <input id="buy_usd" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+                </div>
+                <div>
+                  <label class="block text-sm mb-1" for="buy_idr" id="lblBuyIDR">IDR</label>
+                  <input id="buy_idr" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+                </div>
+              </div>
+            </div>
+
+            <!-- Sell -->
+            <div class="border border-gray-200 dark:border-gray-800 rounded-2xl p-4">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="font-semibold" id="sellTitle">Harga Jual</h3>
+                <button id="btnPriceSell" class="ring-focus rounded-lg px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs">Gunakan Harga Real-time</button>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-sm mb-1" for="sell_usd" id="lblSellUSD">USD</label>
+                  <input id="sell_usd" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+                </div>
+                <div>
+                  <label class="block text-sm mb-1" for="sell_idr" id="lblSellIDR">IDR</label>
+                  <input id="sell_idr" type="number" inputmode="decimal" class="num-input w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <button id="btnCalculate" class="ring-focus rounded-xl px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium">Hitung</button>
+            <button id="btnReset" class="ring-focus rounded-xl px-4 py-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700">Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === 7) HASIL === -->
+    <section class="mt-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm p-4 sm:p-6 fade">
+      <h2 class="text-lg font-semibold mb-4" id="resultTitle">Hasil</h2>
+      <div id="results" class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-6 text-sm">
+        <div class="flex justify-between"><span id="r_cap_idr">Modal Awal (IDR)</span><span id="v_cap_idr">—</span></div>
+        <div class="flex justify-between"><span id="r_cap_usd">Modal Awal (USD)</span><span id="v_cap_usd">—</span></div>
+        <div class="flex justify-between"><span id="r_qty">Jumlah Koin Didapat</span><span id="v_qty">—</span></div>
+        <div class="flex justify-between"><span id="r_pl_usd">Profit / Loss (USD)</span><span id="v_pl_usd" class="">—</span></div>
+        <div class="flex justify-between"><span id="r_pl_idr">Profit / Loss (IDR)</span><span id="v_pl_idr" class="">—</span></div>
+        <div class="flex justify-between"><span id="r_final">Nilai Akhir (Modal + P/L)</span><span id="v_final">—</span></div>
+        <div class="flex justify-between"><span id="r_percent">Persentase</span><span id="v_percent" class="">—</span></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-xs text-gray-500 dark:text-gray-400">
+      <p id="footNote">Data kurs: open.er-api.com, harga koin &amp; daftar koin: CoinGecko. Tanpa jaminan; gunakan dengan risiko Anda sendiri.</p>
+    </footer>
+  </div>
+
+<script>
+(function(){
+  // ===== Utilities =====
+  const $ = (id) => document.getElementById(id);
+  const htmlEl = document.documentElement;
+  const alertBox = $('alert');
+
+  // ---- i18n dictionaries (ID, EN-US, ZH-TW) ----
+  const i18n = {
+    id: {
+      subtitle: 'Hitung P/L berdasarkan modal, kurs, dan harga beli/jual.',
+      capTitle: 'Modal Awal', rateTitle: 'Kurs Mata Uang', coinTitle: 'Pilihan Koin',
+      lblCapitalIDR: 'IDR', lblCapitalUSD: 'USD', lblCapitalTWD: 'TWD',
+      lblRateIDR: '1 USD = … IDR', lblRateTWD: '1 USD = … TWD',
+      coinHint: 'Memuat 100 koin teratas berdasarkan market cap (CoinGecko).',
+      buyTitle: 'Harga Beli', sellTitle: 'Harga Jual',
+      lblBuyUSD: 'USD', lblBuyIDR: 'IDR', lblSellUSD: 'USD', lblSellIDR: 'IDR',
+      txtFetchFx: 'Ambil Kurs Real-time',
+      resultTitle: 'Hasil',
+      r_cap_idr: 'Modal Awal (IDR)', r_cap_usd: 'Modal Awal (USD)', r_qty: 'Jumlah Koin Didapat', r_pl_usd: 'Profit / Loss (USD)', r_pl_idr: 'Profit / Loss (IDR)', r_final: 'Nilai Akhir (Modal + P/L)', r_percent: 'Persentase',
+      btnCalc: 'Hitung', btnReset: 'Reset', optLoading: 'Memuat daftar koin…',
+      errors: {
+        needRates: 'Isi kurs USD→IDR dan USD→TWD terlebih dahulu atau gunakan tombol Ambil Kurs Real-time.',
+        needBuySell: 'Isi harga beli & harga jual (USD atau IDR).',
+        needCapital: 'Isi salah satu modal (IDR/USD/TWD).',
+        negative: 'Nilai tidak boleh negatif.',
+        coinNotSelected: 'Pilih koin terlebih dahulu.',
+        fetchFailed: 'Gagal memuat data. Coba lagi.'
+      },
+      foot: 'Data kurs: open.er-api.com, harga koin & daftar koin: CoinGecko. Tanpa jaminan; gunakan dengan risiko Anda sendiri.'
+    },
+    en: {
+      subtitle: 'Calculate P/L from capital, FX rates, and buy/sell prices.',
+      capTitle: 'Initial Capital', rateTitle: 'Exchange Rates', coinTitle: 'Coin Selection',
+      lblCapitalIDR: 'IDR', lblCapitalUSD: 'USD', lblCapitalTWD: 'TWD',
+      lblRateIDR: '1 USD = … IDR', lblRateTWD: '1 USD = … TWD',
+      coinHint: 'Loading top 100 coins by market cap (CoinGecko).',
+      buyTitle: 'Buy Price', sellTitle: 'Sell Price',
+      lblBuyUSD: 'USD', lblBuyIDR: 'IDR', lblSellUSD: 'USD', lblSellIDR: 'IDR',
+      txtFetchFx: 'Fetch Real-time Rates',
+      resultTitle: 'Results',
+      r_cap_idr: 'Initial Capital (IDR)', r_cap_usd: 'Initial Capital (USD)', r_qty: 'Coins Acquired', r_pl_usd: 'Profit / Loss (USD)', r_pl_idr: 'Profit / Loss (IDR)', r_final: 'Final Value (Capital + P/L)', r_percent: 'Percentage',
+      btnCalc: 'Calculate', btnReset: 'Reset', optLoading: 'Loading coins…',
+      errors: {
+        needRates: 'Please fill USD→IDR and USD→TWD rates first or use Fetch Real-time Rates.',
+        needBuySell: 'Please fill buy & sell price (USD or IDR).',
+        needCapital: 'Please enter one of the capitals (IDR/USD/TWD).',
+        negative: 'Values cannot be negative.',
+        coinNotSelected: 'Select a coin first.',
+        fetchFailed: 'Failed to load data. Please try again.'
+      },
+      foot: 'FX: open.er-api.com; coins & prices: CoinGecko. No warranty; use at your own risk.'
+    },
+    zh: {
+      subtitle: '根據資金、匯率與買賣價格計算損益。',
+      capTitle: '初始資金', rateTitle: '匯率', coinTitle: '加密貨幣',
+      lblCapitalIDR: '資金（IDR）', lblCapitalUSD: '資金（USD）', lblCapitalTWD: '資金（TWD）',
+      lblRateIDR: '1 USD = … IDR', lblRateTWD: '1 USD = … TWD',
+      coinHint: '載入按市值排名前 100 的加密貨幣（CoinGecko）。',
+      buyTitle: '買入價格', sellTitle: '賣出價格',
+      lblBuyUSD: '價格（USD）', lblBuyIDR: '價格（IDR）', lblSellUSD: '價格（USD）', lblSellIDR: '價格（IDR）',
+      txtFetchFx: '取得即時匯率',
+      resultTitle: '結果',
+      r_cap_idr: '初始資金（IDR）', r_cap_usd: '初始資金（USD）', r_qty: '取得幣數', r_pl_usd: '損益（USD）', r_pl_idr: '損益（IDR）', r_final: '最終金額（資金 + 損益）', r_percent: '百分比',
+      btnCalc: '計算', btnReset: '重設', optLoading: '載入清單…',
+      errors: {
+        needRates: '請先輸入 USD→IDR 與 USD→TWD 累率，或點擊「取得即時匯率」。',
+        needBuySell: '請輸入買入與賣出價格（USD 或 IDR）。',
+        needCapital: '請輸入任一筆資金（IDR/USD/TWD）。',
+        negative: '不可為負值。',
+        coinNotSelected: '請先選擇加密貨幣。',
+        fetchFailed: '載入失敗，請再試一次。'
+      },
+      foot: '匯率：open.er-api.com；幣價與清單：CoinGecko。僅供參考，風險自負。'
+    }
+  };
+
+  let state = {
+    lang: localStorage.getItem('lang') || 'id',
+    theme: localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'),
+    coins: [], // {id, name, symbol}
+    selectedCoinId: '',
+    syncing: false,
+  };
+
+  function setTheme(t){
+    state.theme = t;
+    if(t==='dark') htmlEl.classList.add('dark'); else htmlEl.classList.remove('dark');
+    localStorage.setItem('theme', t);
+  }
+
+  function setLang(l){
+    state.lang = l; localStorage.setItem('lang', l);
+    const T = i18n[l];
+    htmlEl.setAttribute('lang', l==='id' ? 'id' : (l==='zh' ? 'zh-Hant-TW' : 'en'));
+    $('subtitle').textContent = T.subtitle;
+    $('capTitle').textContent = T.capTitle;
+    $('rateTitle').textContent = T.rateTitle;
+    $('coinTitle').textContent = T.coinTitle;
+    $('lblCapitalIDR').textContent = T.lblCapitalIDR;
+    $('lblCapitalUSD').textContent = T.lblCapitalUSD;
+    $('lblCapitalTWD').textContent = T.lblCapitalTWD;
+    $('lblRateIDR').textContent = T.lblRateIDR;
+    $('lblRateTWD').textContent = T.lblRateTWD;
+    $('coinHint').textContent = T.coinHint;
+    $('buyTitle').textContent = T.buyTitle;
+    $('sellTitle').textContent = T.sellTitle;
+    $('lblBuyUSD').textContent = T.lblBuyUSD;
+    $('lblBuyIDR').textContent = T.lblBuyIDR;
+    $('lblSellUSD').textContent = T.lblSellUSD;
+    $('lblSellIDR').textContent = T.lblSellIDR;
+    $('txtFetchFx').textContent = T.txtFetchFx;
+    $('resultTitle').textContent = T.resultTitle;
+    $('r_cap_idr').textContent = T.r_cap_idr;
+    $('r_cap_usd').textContent = T.r_cap_usd;
+    $('r_qty').textContent = T.r_qty;
+    $('r_pl_usd').textContent = T.r_pl_usd;
+    $('r_pl_idr').textContent = T.r_pl_idr;
+    $('r_final').textContent = T.r_final;
+    $('r_percent').textContent = T.r_percent;
+    $('footNote').textContent = T.foot;
+    $('btnCalculate').textContent = T.btnCalc;
+    $('btnReset').textContent = T.btnReset;
+    const opt = document.querySelector('#coinSelect option[disabled]');
+    if(opt) opt.textContent = T.optLoading;
+    renderResults(lastCalc);
+  }
+
+  function fmtNumber(v, fraction=2){
+    if(v===null || v===undefined || Number.isNaN(v)) return '—';
+    const locale = state.lang==='id' ? 'id-ID' : (state.lang==='zh' ? 'zh-TW' : 'en-US');
+    return new Intl.NumberFormat(locale, {maximumFractionDigits: fraction}).format(v);
+  }
+  function fmtCurrency(v, code='USD', fraction=2){
+    if(v===null || v===undefined || Number.isNaN(v)) return '—';
+    const locale = state.lang==='id' ? 'id-ID' : (state.lang==='zh' ? 'zh-TW' : 'en-US');
+    return new Intl.NumberFormat(locale, {style:'currency', currency: code, maximumFractionDigits: fraction}).format(v);
+  }
+
+  function showError(msg){
+    alertBox.className = 'mb-4 p-3 rounded-xl border text-sm bg-red-50 border-red-200 text-red-800 dark:bg-red-900/20 dark:border-red-900/40 dark:text-red-200';
+    alertBox.textContent = msg;
+    alertBox.classList.remove('hidden');
+  }
+  function showInfo(msg){
+    alertBox.className = 'mb-4 p-3 rounded-xl border text-sm bg-blue-50 border-blue-200 text-blue-800 dark:bg-blue-900/20 dark:border-blue-900/40 dark:text-blue-200';
+    alertBox.textContent = msg;
+    alertBox.classList.remove('hidden');
+  }
+  function clearAlert(){ alertBox.classList.add('hidden'); }
+
+  // ===== Elements =====
+  const capital_idr = $('capital_idr');
+  const capital_usd = $('capital_usd');
+  const capital_twd = $('capital_twd');
+  const rate_idr = $('rate_idr');
+  const rate_twd = $('rate_twd');
+  const buy_usd = $('buy_usd');
+  const buy_idr = $('buy_idr');
+  const sell_usd = $('sell_usd');
+  const sell_idr = $('sell_idr');
+
+  function toNum(el){ const v = parseFloat(el.value); return Number.isFinite(v) ? v : null; }
+  function nonNegOrNull(n){ return (n===null || n>=0) ? n : NaN; }
+
+  function syncCapital(from){
+    if(state.syncing) return; state.syncing = true;
+    const R_IDR = toNum(rate_idr);
+    const R_TWD = toNum(rate_twd);
+
+    const idr = from==='idr' ? nonNegOrNull(toNum(capital_idr)) : null;
+    const usd = from==='usd' ? nonNegOrNull(toNum(capital_usd)) : null;
+    const twd = from==='twd' ? nonNegOrNull(toNum(capital_twd)) : null;
+
+    try{
+      if(from==='usd' && usd!=null){
+        if(R_IDR!=null) capital_idr.value = (usd * R_IDR).toFixed(2);
+        if(R_TWD!=null) capital_twd.value = (usd * R_TWD).toFixed(2);
+      } else if(from==='idr' && idr!=null && R_IDR!=null){
+        capital_usd.value = (idr / R_IDR).toFixed(2);
+        if(R_TWD!=null) capital_twd.value = ((idr / R_IDR) * R_TWD).toFixed(2);
+      } else if(from==='twd' && twd!=null && R_TWD!=null){
+        capital_usd.value = (twd / R_TWD).toFixed(2);
+        if(R_IDR!=null) capital_idr.value = ((twd / R_TWD) * R_IDR).toFixed(2);
+      }
+    } finally { state.syncing = false; }
+  }
+
+  function syncPriceUSDIDR(which){
+    if(state.syncing) return; state.syncing = true;
+    const R_IDR = toNum(rate_idr);
+    try{
+      if(which==='buy_usd'){
+        const usd = toNum(buy_usd); if(R_IDR!=null && usd!=null) buy_idr.value = (usd * R_IDR).toFixed(2);
+      } else if(which==='buy_idr'){
+        const idr = toNum(buy_idr); if(R_IDR!=null && idr!=null) buy_usd.value = (idr / R_IDR).toFixed(6);
+      } else if(which==='sell_usd'){
+        const usd = toNum(sell_usd); if(R_IDR!=null && usd!=null) sell_idr.value = (usd * R_IDR).toFixed(2);
+      } else if(which==='sell_idr'){
+        const idr = toNum(sell_idr); if(R_IDR!=null && idr!=null) sell_usd.value = (idr / R_IDR).toFixed(6);
+      }
+    } finally { state.syncing = false; }
+  }
+
+  // ===== API Calls =====
+  const btnFetchFx = $('btnFetchFx');
+  const spinFx = $('spinFx');
+  async function fetchFx(){
+    clearAlert();
+    btnFetchFx.disabled = true; spinFx.classList.remove('hidden');
+    try{
+      const res = await fetch('https://open.er-api.com/v6/latest/USD');
+      if(!res.ok) throw new Error('fx http');
+      const json = await res.json();
+      const idr = json?.rates?.IDR; const twd = json?.rates?.TWD;
+      if(!idr || !twd) throw new Error('fx data');
+      rate_idr.value = (+idr).toFixed(2);
+      rate_twd.value = (+twd).toFixed(4);
+      showInfo(state.lang==='id' ? 'Kurs berhasil dimuat.' : (state.lang==='zh' ? '匯率已載入。' : 'Rates loaded successfully.'));
+      if(capital_idr.value) syncCapital('idr');
+      else if(capital_usd.value) syncCapital('usd');
+      else if(capital_twd.value) syncCapital('twd');
+    } catch(e){
+      showError(i18n[state.lang].errors.fetchFailed);
+    } finally {
+      btnFetchFx.disabled = false; spinFx.classList.add('hidden');
+    }
+  }
+
+  const coinSelect = $('coinSelect');
+  async function loadCoins(){
+    try{
+      const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false';
+      const res = await fetch(url, { headers: { 'Accept':'application/json' } });
+      if(!res.ok) throw new Error('coins http');
+      const data = await res.json();
+      state.coins = data.map(c => ({ id: c.id, name: c.name, symbol: (c.symbol||'').toUpperCase() }));
+      coinSelect.innerHTML = '<option value="" disabled selected>—</option>' + state.coins.map(c => `<option value="${c.id}">${c.name} (${c.symbol})</option>`).join('');
+    } catch(e){
+      coinSelect.innerHTML = `<option value="" disabled selected>${i18n[state.lang].errors.fetchFailed}</option>`;
+    }
+  }
+
+  async function fetchCoinPriceUSD(coinId){
+    const url = `https://api.coingecko.com/api/v3/simple/price?ids=${encodeURIComponent(coinId)}&vs_currencies=usd`;
+    const res = await fetch(url, { headers: { 'Accept':'application/json' } });
+    if(!res.ok) throw new Error('price http');
+    const json = await res.json();
+    const val = json?.[coinId]?.usd;
+    if(!val && val!==0) throw new Error('price data');
+    return +val;
+  }
+
+  // ===== Pure computation (for tests & reuse) =====
+  function computePL({capIDR=null, capUSD=null, capTWD=null, R_IDR, R_TWD, buyUSD=null, buyIDR=null, sellUSD=null, sellIDR=null}){
+    if(R_IDR==null || R_TWD==null) throw new Error('Rates required');
+    if(capIDR==null && capUSD!=null) capIDR = capUSD * R_IDR;
+    if(capIDR==null && capTWD!=null) capIDR = (capTWD / R_TWD) * R_IDR;
+    if(capUSD==null && capIDR!=null) capUSD = capIDR / R_IDR;
+    if(capIDR==null || capUSD==null) throw new Error('Capital required');
+    if(buyUSD==null && buyIDR!=null) buyUSD = buyIDR / R_IDR;
+    if(sellUSD==null && sellIDR!=null) sellUSD = sellIDR / R_IDR;
+    if(buyUSD==null || sellUSD==null) throw new Error('Prices required');
+    const qty = capUSD / buyUSD;
+    const totalSellUSD = qty * sellUSD;
+    const plUSD = totalSellUSD - capUSD;
+    const plIDR = plUSD * R_IDR;
+    const percent = (plUSD / capUSD) * 100;
+    const finalIDR = capIDR + plIDR;
+    return { capIDR, capUSD, qty, plUSD, plIDR, finalIDR, percent };
+  }
+
+  $('btnPriceBuy').addEventListener('click', async ()=>{
+    clearAlert();
+    const coinId = coinSelect.value; if(!coinId){ showError(i18n[state.lang].errors.coinNotSelected); return; }
+    try{
+      const usd = await fetchCoinPriceUSD(coinId);
+      buy_usd.value = usd;
+      syncPriceUSDIDR('buy_usd');
+      showInfo(state.lang==='id' ? 'Harga beli terkini dimuat.' : (state.lang==='zh' ? '已載入最新買入價。' : 'Latest buy price loaded.'));
+    } catch(e){ showError(i18n[state.lang].errors.fetchFailed); }
+  });
+  $('btnPriceSell').addEventListener('click', async ()=>{
+    clearAlert();
+    const coinId = coinSelect.value; if(!coinId){ showError(i18n[state.lang].errors.coinNotSelected); return; }
+    try{
+      const usd = await fetchCoinPriceUSD(coinId);
+      sell_usd.value = usd;
+      syncPriceUSDIDR('sell_usd');
+      showInfo(state.lang==='id' ? 'Harga jual terkini dimuat.' : (state.lang==='zh' ? '已載入最新賣出價。' : 'Latest sell price loaded.'));
+    } catch(e){ showError(i18n[state.lang].errors.fetchFailed); }
+  });
+
+  // ===== Calculation (reads DOM) =====
+  let lastCalc = null;
+  function calculate(){
+    clearAlert();
+    const T = i18n[state.lang].errors;
+
+    const fields = [capital_idr, capital_usd, capital_twd, rate_idr, rate_twd, buy_usd, buy_idr, sell_usd, sell_idr];
+    for(const f of fields){ if(f.value && parseFloat(f.value) < 0){ showError(T.negative); return; } }
+
+    const R_IDR = toNum(rate_idr); const R_TWD = toNum(rate_twd);
+    if(R_IDR==null || R_TWD==null){ showError(T.needRates); return; }
+
+    try{
+      lastCalc = computePL({
+        capIDR: toNum(capital_idr), capUSD: toNum(capital_usd), capTWD: toNum(capital_twd),
+        R_IDR, R_TWD,
+        buyUSD: toNum(buy_usd), buyIDR: toNum(buy_idr),
+        sellUSD: toNum(sell_usd), sellIDR: toNum(sell_idr)
+      });
+    } catch(e){
+      const msgMap = { 'Rates required': T.needRates, 'Capital required': T.needCapital, 'Prices required': T.needBuySell };
+      showError(msgMap[e.message] || e.message); return;
+    }
+
+    renderResults(lastCalc);
+  }
+
+  function renderResults(r){
+    const green = 'text-emerald-600 dark:text-emerald-400';
+    const red = 'text-red-600 dark:text-red-400';
+    const v_pl_usd = $('v_pl_usd');
+    const v_pl_idr = $('v_pl_idr');
+    const v_percent = $('v_percent');
+
+    if(!r){
+      $('v_cap_idr').textContent = '—';
+      $('v_cap_usd').textContent = '—';
+      $('v_qty').textContent = '—';
+      v_pl_usd.textContent = '—'; v_pl_idr.textContent = '—'; $('v_final').textContent = '—'; v_percent.textContent = '—';
+      v_pl_usd.className=''; v_pl_idr.className=''; v_percent.className='';
+      return;
+    }
+
+    $('v_cap_idr').textContent = fmtCurrency(r.capIDR,'IDR',0);
+    $('v_cap_usd').textContent = fmtCurrency(r.capUSD,'USD',2);
+    $('v_qty').textContent = fmtNumber(r.qty, 8);
+
+    const isProfit = r.plUSD >= 0;
+    v_pl_usd.textContent = fmtCurrency(r.plUSD,'USD',2);
+    v_pl_idr.textContent = fmtCurrency(r.plIDR,'IDR',0);
+    v_percent.textContent = (isFinite(r.percent) ? fmtNumber(r.percent,2)+' %' : '—');
+    $('v_final').textContent = fmtCurrency(r.finalIDR,'IDR',0);
+
+    v_pl_usd.className = isProfit ? green : red;
+    v_pl_idr.className = isProfit ? green : red;
+    v_percent.className = isProfit ? green : red;
+  }
+
+  $('themeBtn').addEventListener('click', ()=> setTheme(state.theme==='dark'?'light':'dark'));
+  $('lang').addEventListener('change', (e)=> setLang(e.target.value));
+  btnFetchFx.addEventListener('click', fetchFx);
+
+  // Capital sync
+  capital_idr.addEventListener('input', ()=> syncCapital('idr'));
+  capital_usd.addEventListener('input', ()=> syncCapital('usd'));
+  capital_twd.addEventListener('input', ()=> syncCapital('twd'));
+  rate_idr.addEventListener('input', ()=> { syncCapital('idr'); syncPriceUSDIDR('buy_usd'); syncPriceUSDIDR('sell_usd'); });
+  rate_twd.addEventListener('input', ()=> { syncCapital('twd'); });
+
+  // Price sync
+  buy_usd.addEventListener('input', ()=> syncPriceUSDIDR('buy_usd'));
+  buy_idr.addEventListener('input', ()=> syncPriceUSDIDR('buy_idr'));
+  sell_usd.addEventListener('input', ()=> syncPriceUSDIDR('sell_usd'));
+  sell_idr.addEventListener('input', ()=> syncPriceUSDIDR('sell_idr'));
+
+  $('btnCalculate').addEventListener('click', calculate);
+  $('btnReset').addEventListener('click', ()=>{
+    clearAlert();
+    for(const el of document.querySelectorAll('input')) el.value='';
+    coinSelect.selectedIndex = 0; lastCalc=null; renderResults(null);
+  });
+
+  // ===== Init =====
+  setTheme(state.theme);
+  $('lang').value = state.lang; setLang(state.lang);
+  loadCoins();
+
+  // ===== Self-tests (console) =====
+  function approx(a,b,eps=1e-6){ return Math.abs(a-b) <= eps; }
+  function assert(name, cond){ if(!cond){ console.error('❌ Test failed:', name); } else { console.log('✅', name); } }
+  try {
+    // Test 1: Simple profit with capital in IDR, prices in USD
+    const R_IDR = 15000, R_TWD = 31;
+    let r = computePL({ capIDR: 1500000, R_IDR, R_TWD, buyUSD: 100, sellUSD: 110 });
+    assert('T1 capUSD is 100', approx(r.capUSD, 100));
+    assert('T1 qty is 1', approx(r.qty, 1));
+    assert('T1 plUSD is 10', approx(r.plUSD, 10));
+    assert('T1 plIDR is 150000', approx(r.plIDR, 150000));
+    assert('T1 percent is 10%', approx(r.percent, 10));
+    assert('T1 finalIDR is 1650000', approx(r.finalIDR, 1650000));
+
+    // Test 2: Capital in USD only, prices in IDR only
+    r = computePL({ capUSD: 200, R_IDR, R_TWD, buyIDR: 1500000, sellIDR: 1800000 });
+    assert('T2 buyUSD from IDR', approx(1500000/R_IDR, 100));
+    assert('T2 qty', approx(r.qty, 2));
+    assert('T2 plUSD', approx(r.plUSD, (2*(1800000/R_IDR) - 200)));
+
+    // Test 3: Missing prices throws
+    let threw=false; try{ computePL({capUSD:100,R_IDR,R_TWD}); } catch(e){ threw=(e.message==='Prices required'); }
+    assert('T3 throws Prices required', threw);
+
+    // Test 4: Missing rates throws
+    threw=false; try{ computePL({capUSD:100, buyUSD:10, sellUSD:11}); } catch(e){ threw=(e.message==='Rates required'); }
+    assert('T4 throws Rates required', threw);
+
+    // Test 5: i18n has three locales
+    assert('T5 i18n.id exists', !!i18n.id && !!i18n.id.lblBuyUSD);
+    assert('T5 i18n.en exists', !!i18n.en && !!i18n.en.lblBuyUSD);
+    assert('T5 i18n.zh exists', !!i18n.zh && !!i18n.zh.lblBuyUSD);
+  } catch (e) {
+    console.error('Self-tests exception:', e);
+  }
+})();
+</script>
+
+
+</body></html>
