@@ -2,5 +2,4 @@ This calculator can be used to calculate the profits and losses of 100 cryptocur
 It is only used for spot trading calculation simulations, not futures.
 Three language options are available: Indonesian, English, and Traditional Chinese.
 
-<img width="724" height="1301" alt="image" src="https://github.com/user-attachments/assets/ead277ce-50a4-4939-ad35-8f9ecbff5593" />
-
+<img width="729" height="1312" alt="image" src="https://github.com/user-attachments/assets/9e883f3d-f564-404b-99e7-fede8ef2b253" />
